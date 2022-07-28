@@ -1,0 +1,15 @@
+spring:
+  data:
+    dynamodb:
+      entity2ddl:
+        # creates tables if they don't already exist
+        # https://github.com/derjust/spring-data-dynamodb/wiki/Autocreate-Tables#Creation
+        auto: create-only
+
+# dynamoDB http debugging
+logging:
+  level:
+    org:
+      apache:
+        http:
+          wire: debug

@@ -1,0 +1,14 @@
+spring:
+  data:
+    dynamodb:
+      entity2ddl:
+        # creates tables if they don't already exist
+        # https://github.com/derjust/spring-data-dynamodb/wiki/Autocreate-Tables#Creation
+        auto: none
+
+aws:
+  accessKey: ""
+  secretKey: ""
+  region: "AP_NORTHEAST_2"
+  dynamodb-endpoint: ""
+  dynamodb-tableName: "MauvePointEdgeTableStaging"

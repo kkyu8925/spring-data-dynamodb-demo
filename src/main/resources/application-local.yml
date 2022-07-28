@@ -1,0 +1,6 @@
+aws:
+  accessKey: "epbccq"
+  secretKey: "n8urfe"
+  region: "local"
+  dynamodb-endpoint: "http://localhost:8000"
+  dynamodb-tableName: "MauvePointEdgeTableStaging"
